@@ -1,4 +1,4 @@
-import Nav from '.././components/Nav'
+import Nav from '../components/Nav.js'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
