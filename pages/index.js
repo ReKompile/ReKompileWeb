@@ -10,7 +10,7 @@ export default function Home() {
 				<title>
 					ReKompile - Teaching kids coding to make a difference
 				</title>
-				<link rel='icon' href='/Logo-icon'></link>
+				<link rel='icon' href='/Logo-icon.png'></link>
 				<meta
 					name='title'
 					content='ReKompile - Teaching kids coding to make a difference'
