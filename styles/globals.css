@@ -8,10 +8,30 @@ body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+	background-color: #fddcd3;
 }
-
-
 
 * {
 	box-sizing: border-box;
+}
+
+.orange-gradient {
+	background: rgb(255, 0, 0);
+	background: radial-gradient(
+		circle,
+		rgba(255, 0, 0, 1) 30%,
+		rgba(255, 140, 57, 1) 110%
+	);
+}
+.orange-gradient-text {
+	background: rgb(255, 0, 0);
+	background: radial-gradient(
+		circle,
+		rgba(255, 0, 0, 1) 0%,
+		rgba(255, 140, 57, 1) 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
 }
