@@ -29,7 +29,10 @@ export default function Home() {
 					property='og:description'
 					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
 				/>
-				<meta property='og:image' content='' />
+				<meta
+					property='og:image'
+					content='https://media.discordapp.net/attachments/836304486652706849/929217510216200213/Home_Page_ReKompile.png?width=899&height=533'
+				/>
 
 				<meta property='twitter:card' content='summary_large_image' />
 				<meta property='twitter:url' content='http://rekompile.org/' />
@@ -41,7 +44,10 @@ export default function Home() {
 					property='twitter:description'
 					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
 				/>
-				<meta property='twitter:image' content='' />
+				<meta
+					property='twitter:image'
+					content='https://media.discordapp.net/attachments/836304486652706849/929217510216200213/Home_Page_ReKompile.png?width=899&height=533'
+				/>
 			</Head>
 			<div className=''>
 				<div className='flex justify-center mt-20 mx-12'>
