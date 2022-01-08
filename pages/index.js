@@ -10,6 +10,7 @@ export default function Home() {
 				<title>
 					ReKompile - Teaching kids coding to make a difference
 				</title>
+				<link rel='icon' href='/Logo-icon'></link>
 				<meta
 					name='title'
 					content='ReKompile - Teaching kids coding to make a difference'
@@ -29,10 +30,7 @@ export default function Home() {
 					property='og:description'
 					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
 				/>
-				<meta
-					property='og:image'
-					content='https://media.discordapp.net/attachments/836304486652706849/929217510216200213/Home_Page_ReKompile.png?width=899&height=533'
-				/>
+				<meta property='og:image' content='/Home-Page-ReKompile.png' />
 
 				<meta property='twitter:card' content='summary_large_image' />
 				<meta property='twitter:url' content='http://rekompile.org/' />
@@ -46,7 +44,7 @@ export default function Home() {
 				/>
 				<meta
 					property='twitter:image'
-					content='https://media.discordapp.net/attachments/836304486652706849/929217510216200213/Home_Page_ReKompile.png?width=899&height=533'
+					content='/Home-Page-ReKompile.png'
 				/>
 			</Head>
 			<div className=''>
