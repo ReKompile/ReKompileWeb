@@ -1,23 +1,13 @@
-import React from 'react'
-import Link from 'next/link'
+import BaseButton from './BaseButton'
 
+function GradientButton({ ...props }) {
+	let s = `orange-gradient text-white ${props.className}`
 
-function GradientButton({ children, href = null }) {
-	if (href) {
-		return (
-			<Link href = {href} passHref>
-				<button className='orange-gradient px-12 py-5 text-2xl text-white'>
-					{children}
-				</button>
-			</Link>
-		)
-	}
 	return (
-		<div>
-			<button className='orange-gradient px-12 py-5 text-2xl text-white'>
-				{children}
-			</button>
-		</div>
+		<BaseButton
+			{...props}
+			className={s}
+		/>
 	)
 }
 

@@ -1,12 +1,11 @@
-import React from 'react'
+import BaseButton from './BaseButton'
 
-function OutlineButton({ children }) {
+function OutlineButton(props) {
 	return (
-		<div>
-			<button className='border-2 border-orange px-12 py-5 text-2xl text-orange'>
-				{children}
-			</button>
-		</div>
+		<BaseButton
+			className='border-2 border-orange text-orange'
+			{...props}
+		/>
 	)
 }
 
