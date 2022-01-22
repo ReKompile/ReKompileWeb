@@ -70,15 +70,6 @@ export default function Home() {
 						/>
 					</div>
 				</div>
-				<div className=''>
-					<Image
-						src='/layered-waves.svg'
-						layout='fill'
-						objectFit='contain'
-						objectPosition='bottom'
-						alt='layered waves'
-					/>
-				</div>
 			</div>
 		</>
 	)
