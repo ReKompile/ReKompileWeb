@@ -1,12 +1,13 @@
-import React from 'react'
+import BaseButton from './BaseButton'
 
-function GradientButton({ children }) {
+function GradientButton({ ...props }) {
+	let s = `orange-gradient text-white ${props.className}`
+
 	return (
-		<div>
-			<button className='orange-gradient px-12 py-5 text-2xl text-white'>
-				{children}
-			</button>
-		</div>
+		<BaseButton
+			{...props}
+			className={s}
+		/>
 	)
 }
 
