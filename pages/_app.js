@@ -8,11 +8,11 @@ function MyApp({ Component: Page, pageProps }) {
             <Head>
                 {/* Fonts */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Belgrano&display=swap" rel="stylesheet"></link>
 
-                
+
 				<title>
 					ReKompile - Teaching kids coding to make a difference
 				</title>
