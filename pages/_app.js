@@ -4,23 +4,15 @@ import Head from 'next/head'
 
 function MyApp({ Component: Page, pageProps }) {
 	return (
-<<<<<<< HEAD
-        <>
+		<>
             <Head>
                 {/* Fonts */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Belgrano&display=swap" rel="stylesheet"></link>
-            </Head>
-            <div className='flex flex-col min-h-screen'>
-                <Nav />
-                <Component {...pageProps} />
-            </div>
-        </>
-=======
-		<>
-			<Head>
+
+                
 				<title>
 					ReKompile - Teaching kids coding to make a difference
 				</title>
@@ -68,7 +60,6 @@ function MyApp({ Component: Page, pageProps }) {
 				<Page {...pageProps} />
 			</div>
 		</>
->>>>>>> 7b56dd102e4bcfc948dd026c893027eb0af0641d
 	)
 }
 
