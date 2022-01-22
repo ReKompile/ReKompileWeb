@@ -7,7 +7,7 @@ function Nav() {
 	const [mobileOpen, setMobileOpen] = useState(false)
 
 	return (
-		<nav className='px-2 sm:px-4 py-2.5 rounded'>
+		<nav className='px-2 sm:px-4 py-2.5 rounded z-50 relative bg-cream'>
 			<div className='container flex flex-wrap justify-between items-center mx-auto'>
 				<div className='block w-1/2 md:w-1/3 lg:w-1/4'>
 					<Link href='/' passHref>

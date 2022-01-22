@@ -29,6 +29,7 @@ body {
 		rgba(255, 0, 0, 1) 30%,
 		rgba(255, 140, 57, 1) 110%
 	);
+    border-radius: 10px;
 }
 .orange-gradient-text {
 	background: rgb(255, 0, 0);
