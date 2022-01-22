@@ -4,7 +4,7 @@ import OutlineButton from '../components/OutlineButton'
 
 export default function Home(props) {
 	return (
-        <div>
+        <div className='pb-10'>
             <div className='overflow-hidden top-0 w-full h-full absolute'>
                 <div className='absolute w-11/12 h-full z-0' style={{left: '20%'}}>
                     <Image
@@ -36,11 +36,11 @@ export default function Home(props) {
                     </div>
                     <p className='text-lg my-10 w-3/4'>
                         ReKompile is a registered non profit organization started by students,
-                        with a mission of teaching other students about technology and inpsiring them
+                        with a mission of teaching other students about technology and inspiring them
                         by connecting them with other non profits who can benefit from their newly
                         learned skills. All for free.
                     </p>
-                    <div className='flex justify-between  max-w-md mt-14'>
+                    <div className='flex justify-between max-w-md mt-14'>
                         <OutlineButton href='/about-us'>
                             About Us
                         </OutlineButton>
@@ -49,7 +49,7 @@ export default function Home(props) {
                         </GradientButton>
                     </div>
                 </div>
-                <div className='basis-2/3'>
+                <div className='basis-3/4 relative top-10 right-15'>
                     <Image
                         src='/pair_programming.svg'
                         width='1060'
