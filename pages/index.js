@@ -4,9 +4,9 @@ import OutlineButton from '../components/OutlineButton'
 
 export default function Home(props) {
 	return (
-        <div className='pb-10'>
-            <div className='overflow-hidden top-0 w-full h-full absolute'>
-                <div className='absolute w-11/12 h-full z-0' style={{left: '20%'}}>
+        <div className='page-body relative flex'>
+            <div className='overflow-hidden w-screen h-screen absolute'>
+                <div className='absolute w-full h-full z-0' style={{left: '13%'}}>
                     <Image
                         src='/decorations/skyblue_vector.svg'
                         layout='fill'
@@ -15,7 +15,7 @@ export default function Home(props) {
                 </div>
             </div>
 
-            <div className='flex justify-center mt-20 mx-12 items-center'>
+            <div className='flex justify-center items-center'>
                 <div className='basis-4/6 mt-10 relative left-14 font-bai-jamjuree'>
                     <div className='text-xl uppercase text-orange'>
                         <div className='inline-block mr-1 align-middle'>
@@ -40,11 +40,11 @@ export default function Home(props) {
                         by connecting them with other non profits who can benefit from their newly
                         learned skills. All for free.
                     </p>
-                    <div className='flex justify-between max-w-md mt-14'>
+                    <div className='flex'>
                         <OutlineButton href='/about-us'>
                             About Us
                         </OutlineButton>
-                        <GradientButton href='/classes'>
+                        <GradientButton className='ml-4' href='/classes'>
                             View Classes
                         </GradientButton>
                     </div>

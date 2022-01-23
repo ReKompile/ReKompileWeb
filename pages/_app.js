@@ -54,7 +54,7 @@ function MyApp({ Component: Page, pageProps }) {
 				/>
 			</Head>
 			<div
-				className={`bg-cream min-h-screen min-w-screen ${pageProps.className}`}
+				className={`bg-cream min-h-screen min-w-screen flex flex-col ${pageProps.className}`}
 			>
 				<Nav />
 				<Page {...pageProps} />
