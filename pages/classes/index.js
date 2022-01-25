@@ -113,7 +113,7 @@ export default function Classes() {
               <div className="text-data">
                 <h1>Get Certified</h1>
                 <p>
-                  After succesfully completed each class and accomplishing the
+                  After succesfully completing each class and accomplishing the
                   task for the nonprofit, you will recieve a ReKompile
                   Certificate of Stellar Achievement in your name.
                 </p>
