@@ -5,7 +5,14 @@ import Head from 'next/head'
 function MyApp({ Component: Page, pageProps }) {
 	return (
 		<>
-			<Head>
+            <Head>
+                {/* Fonts */}
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
+                <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Belgrano&display=swap" rel="stylesheet"></link>
+
+
 				<title>
 					ReKompile - Teaching kids coding to make a difference
 				</title>
@@ -47,7 +54,7 @@ function MyApp({ Component: Page, pageProps }) {
 				/>
 			</Head>
 			<div
-				className={`bg-cream min-h-screen min-w-screen ${pageProps.className}`}
+				className={`bg-cream min-h-screen min-w-screen flex flex-col ${pageProps.className}`}
 			>
 				<Nav />
 				<Page {...pageProps} />
