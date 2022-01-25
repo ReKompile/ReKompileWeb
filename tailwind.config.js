@@ -15,6 +15,7 @@ module.exports = {
 			backgroundImage: {
 				'under-construction': "url('/under-construction.jpg')",
 			},
+		
 		},
 	},
 	plugins: [],

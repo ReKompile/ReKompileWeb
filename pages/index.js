@@ -31,7 +31,6 @@ export default function Home(props) {
 							alt='pair programming'
 						/>
 					</div>
-		
 				</div>
 			</div>
 		</div>
