@@ -49,8 +49,9 @@ body {
 .white-button {
   background: rgb(255, 255, 255);
   border-radius: 10px;
-	color: #000;
+  color: #000;
 }
+
 /* Classes page */
 
 .classes-page {
@@ -275,5 +276,165 @@ body {
   }
   .box-img {
     margin: 10px 0;
+  }
+}
+
+/* Web Dev Page */
+
+.main-web-dev-page {
+  background-color: #fddcd3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#cover {
+  /* position: relative; */
+  background: url("../public/webDevAssets/background-image-code.png");
+  background-size: cover;
+  width: 80%;
+  height: 75vh;
+  border-radius: 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  max-width: 900px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading {
+  font-family: Belgrano;
+  font-size: 50px;
+  text-align: center;
+  color: #fddcd3;
+}
+
+.content h2 {
+  opacity: 0.8;
+  font-size: 18px;
+  text-align: center;
+  color: #fddcd3;
+  margin: 10px;
+}
+
+#paragraph {
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fddcd3;
+}
+
+#underline {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1662a;
+}
+
+#container {
+  margin: 20px;
+  /* height: 400px; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.items {
+  margin: 15px;
+  padding: 3px;
+  padding-left: 15px;
+  border-left: 4px solid black;
+  width: 200px;
+  height: 250px;
+}
+
+.icon-heading {
+  font-family: Bai Jamjuree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.items h3 {
+  font-family: Bai Jamjuree;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#learning-container {
+  margin: 20px;
+  border: #3f3d56 3px solid;
+  width: 80%;
+  border-radius: 5px;
+  padding: 40px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.learning {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.learn {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.learn img {
+  margin: 10px;
+}
+
+@media (max-width: 500px) {
+  #heading {
+    font-size: 40px;
+  }
+
+  #container {
+    flex-direction: column;
+  }
+
+  .learning {
+    flex-direction: column;
+  }
+  .learn {
+    width: 100%;
+    margin: 10px;
   }
 }
