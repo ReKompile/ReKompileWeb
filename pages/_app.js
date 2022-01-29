@@ -36,9 +36,9 @@ function MyApp({ Component: Page, pageProps }) {
 					property='og:description'
 					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
 				/>
-				<meta property='og:image' content='https://media.discordapp.net/attachments/836304486652706849/936756515593920552/unknown.png?width=1095&height=554' />
+				<meta property='og:image' content='https://media.discordapp.net/attachments/836304486652706849/936756515593920552/unknown.png' />
 
-				<meta property='twitter:card' content='https://media.discordapp.net/attachments/836304486652706849/936756515593920552/unknown.png?width=1095&height=554' />
+				<meta property='twitter:card' content='https://media.discordapp.net/attachments/836304486652706849/936756515593920552/unknown.png' />
 				<meta property='twitter:url' content='http://rekompile.org/' />
 				<meta
 					property='twitter:title'
