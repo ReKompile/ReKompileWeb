@@ -5,13 +5,18 @@ import Head from 'next/head'
 function MyApp({ Component: Page, pageProps }) {
 	return (
 		<>
-            <Head>
-                {/* Fonts */}
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" />
-                <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Belgrano&display=swap" rel="stylesheet"></link>
-
+			<Head>
+				{/* Fonts */}
+				<link rel='preconnect' href='https://fonts.googleapis.com' />
+				<link rel='preconnect' href='https://fonts.gstatic.com' />
+				<link
+					href='https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap'
+					rel='stylesheet'
+				/>
+				<link
+					href='https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Belgrano&display=swap'
+					rel='stylesheet'
+				></link>
 
 				<title>
 					ReKompile - Teaching kids coding to make a difference
@@ -36,7 +41,7 @@ function MyApp({ Component: Page, pageProps }) {
 					property='og:description'
 					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
 				/>
-				<meta property='og:image' content='/Home-Page-ReKompile.png' />
+				<meta property='og:image' content='/rekompile_home_page.png' />
 
 				<meta property='twitter:card' content='summary_large_image' />
 				<meta property='twitter:url' content='http://rekompile.org/' />
@@ -50,7 +55,7 @@ function MyApp({ Component: Page, pageProps }) {
 				/>
 				<meta
 					property='twitter:image'
-					content='/Home-Page-ReKompile.png'
+					content='/rekompile_home_page.png'
 				/>
 			</Head>
 			<div
