@@ -210,11 +210,16 @@ p {
   
 }
 .box-data {
-  width: 45%;
+  margin: 0px auto;
+  width: 80%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+.box-data div {
+  margin: 10px 0px;
 }
 
 .box-data h1 {
@@ -265,6 +270,18 @@ p {
     margin-right: 20px;
     width: 100px;
   }
+  .box {
+    flex-direction: column;
+    padding: 20px;
+    width: 97%;
+  }
+  .box-img {
+    margin: 10px 0;
+  }
+  .box-text {
+    font-size: 23px;
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
@@ -290,13 +307,7 @@ p {
     font-size: 25px;
   }
 
-  .box {
-    flex-direction: column;
-    padding: 20px;
-  }
-  .box-img {
-    margin: 10px 0;
-  }
+
 }
 
 /* Web Dev Page */
