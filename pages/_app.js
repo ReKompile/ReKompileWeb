@@ -43,7 +43,10 @@ function MyApp({ Component: Page, pageProps }) {
 				/>
 				<meta property='og:image' content='/rekompile_home_page.png' />
 
-				<meta property='twitter:card' content='https://media.discordapp.net/attachments/836304486652706849/936756515593920552/unknown.png' />
+				<meta
+					property='twitter:card'
+					content='https://media.discordapp.net/attachments/836304486652706849/936756515593920552/unknown.png'
+				/>
 				<meta property='twitter:url' content='http://rekompile.org/' />
 				<meta
 					property='twitter:title'
