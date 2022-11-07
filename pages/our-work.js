@@ -13,8 +13,8 @@ export default function OurWork() {
 					<div className='base-container'>
 						<div className='main-heading'>
 							<h2>
-								You focus on your mission. We'll take care of
-								the rest.
+								You focus on your mission. We{"'"}ll take care
+								of the rest.
 							</h2>
 							<img
 								src='/classesAssets/line-vector.png'
@@ -50,15 +50,15 @@ export default function OurWork() {
 								<h1>Tech driven solutions</h1>
 								<p>
 									Our talented team of developers will cater
-									to your non profit organization's unique
+									to your non profit organization{"'"}s unique
 									needs in the technology-driven age. From
 									custom-built platforms to responsive
 									websites and mobile apps, we have you
-									covered. We'll work with your team to ensure
-									that your organization is using technology
-									to its fullest potential, and we'll stay
-									with you for the long term, providing
-									support and maintenance.
+									covered. We{"'"}ll work with your team to
+									ensure that your organization is using
+									technology to its fullest potential, and we
+									{"'"}ll stay with you for the long term,
+									providing support and maintenance.
 								</p>
 							</div>
 						</div>
