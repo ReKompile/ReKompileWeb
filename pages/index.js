@@ -41,7 +41,7 @@ export default function Home(props) {
 						for free.
 					</p>
 					<div className='flex'>
-						<OutlineButton href='/about-us'>Our Team</OutlineButton>
+						<OutlineButton href='/our-team'>Our Team</OutlineButton>
 						<GradientButton className='ml-4' href='/our-work'>
 							Our Work
 						</GradientButton>
