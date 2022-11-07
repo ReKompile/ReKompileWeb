@@ -23,10 +23,10 @@ function Nav() {
 				<div className='flex md:order-2'>
 					<div className='mr-3 md:mr-0'>
 						<GradientButton
-							href='/classes'
+							href='/our-work'
 							className='hidden md:block md:text-base md:px-7 md:py-3 lg:px-12 lg:py-5 lg:text-2xl'
 						>
-							View Classes
+							Learn More
 						</GradientButton>
 					</div>
 					<button
