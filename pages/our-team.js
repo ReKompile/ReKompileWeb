@@ -1,5 +1,3 @@
-import BoolAlternator from "../components/BoolAlternator";
-import TeamCategory from "../components/OurTeam/TeamCategory";
 import TeamMember from "../components/OurTeam/TeamMember";
 
 export default function OurTeam() {
@@ -9,34 +7,47 @@ export default function OurTeam() {
                 Meet the Team
             </header>
             
-            <BoolAlternator>
-                <TeamCategory header='Founders'>
-                    <TeamMember name='Zackaria Ghanbari' portrait='/team/zackaria ghanbari.jpg'/>
-                    <TeamMember name='Ali Rastegar' portrait='/team/ali rastegar.png'/>
-                </TeamCategory>
-
-                <TeamCategory header='Techinical Managers'>
-                    <TeamMember name='Abbas Abidi Mir' portrait='/team/blank.png'/>
-                    <TeamMember name='Kumel Hasni' portrait='/team/blank.png'/>
-                </TeamCategory>
-
-                <TeamCategory header='Marketers'>
-                    <TeamMember name='Ali Haidar Salak' portrait='/team/blank.png'/>
-                    <TeamMember name='Muhammad Yusufali' portrait='/team/blank.png'/>
-                </TeamCategory>
-
-                <TeamCategory header="Recruiters">
-                    <TeamMember name='Muhammad Abidi Mir' portrait='/team/blank.png'/>
-                </TeamCategory>
-
-                <TeamCategory header="Developers">
-                    <TeamMember name='Amin Keiai' portrait='/team/blank.png'/>
-                    <TeamMember name='Hayaan Rizvi' portrait='/team/blank.png'/>
-                    <TeamMember name='Ali Isa Talebi' portrait='/team/blank.png'/>
-                    <TeamMember name='Hasib Abbas' portrait='/team/blank.png'/>
-                    <TeamMember name='Hasan Abidi' portrait='/team/blank.png'/>
-                </TeamCategory>
-            </BoolAlternator>
+            <div className="flex flex-wrap justify-center align-center mb-10">
+                <TeamMember name='Zackaria Ghanbari' portrait='/team/zackaria ghanbari.jpg' role='Co-founder'>
+                    A high school student who loves to code and is passionate about helping others.
+                </TeamMember>
+                <TeamMember name='Ali Rastegar' portrait='/team/ali rastegar.png' role='Co-founder'>
+                    Ali thinks descriptions are boring. He mentions, though, that he codes everyday.
+                </TeamMember>
+                <TeamMember name='Abid Raza Mir' portrait='/team/abid raza mir.png' role='Technical Advisor'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Abbas Abidi Mir' portrait='/team/blank.png' role='Technical Manager'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Kumel Hasni' portrait='/team/blank.png' role='Technical Manager'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Ali Haidar Salak' portrait='/team/blank.png' role='Marketer'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Muhammad Hadi Yusufali' portrait='/team/blank.png' role='Marketer'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Muhammad Abidi Mir' portrait='/team/blank.png' role='Recruiter'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Amin Kiaei' portrait='/team/blank.png' role='Developer'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Hayaan Rizvi' portrait='/team/blank.png' role='Developer'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Ali Isa Talebi' portrait='/team/blank.png' role='Developer'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Hasib Abbas' portrait='/team/blank.png' role='Developer'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+                <TeamMember name='Hasan Abidi' portrait='/team/hasan abidi.png' role='Developer'>
+                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                </TeamMember>
+            </div>
         </div>
 	)
 }
