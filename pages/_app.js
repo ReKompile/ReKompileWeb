@@ -19,12 +19,12 @@ function MyApp({ Component: Page, pageProps }) {
 				></link>
 
 				<title>
-					ReKompile - Teaching kids coding to make a difference
+					ReKompile - The nonprofit for nonprofits
 				</title>
 				<link rel='icon' href='/Logo-icon.png'></link>
 				<meta
 					name='title'
-					content='ReKompile - Teaching kids coding to make a difference'
+					content='ReKompile - The nonprofit for nonprofits'
 				/>
 				<meta
 					name='description'
@@ -35,7 +35,7 @@ function MyApp({ Component: Page, pageProps }) {
 				<meta property='og:url' content='http://rekompile.org/' />
 				<meta
 					property='og:title'
-					content='ReKompile - Teaching kids coding to make a difference'
+					content='ReKompile - The nonprofit for nonprofits'
 				/>
 				<meta
 					property='og:description'
@@ -50,7 +50,7 @@ function MyApp({ Component: Page, pageProps }) {
 				<meta property='twitter:url' content='http://rekompile.org/' />
 				<meta
 					property='twitter:title'
-					content='ReKompile - Teaching kids coding to make a difference'
+					content='ReKompile - The nonprofit for nonprofits'
 				/>
 				<meta
 					property='twitter:description'
