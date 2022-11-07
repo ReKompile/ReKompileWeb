@@ -12,18 +12,18 @@ export default function OurTeam() {
                     A high school student who loves to code and is passionate about helping others.
                 </TeamMember>
                 <TeamMember name='Ali Rastegar' portrait='/team/ali rastegar.png' role='Co-founder'>
-                    Ali thinks descriptions are boring. He mentions, though, that he codes everyday.
+                    Ali thinks descriptions are boring. He mentions, though, that he codes every day.
                 </TeamMember>
                 <TeamMember name='Abid Raza Mir' portrait='/team/abid raza mir.png' role='Technical Advisor'>
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
-                <TeamMember name='Abbas Abidi Mir' portrait='/team/blank.png' role='Technical Manager'>
+                <TeamMember name='Abbas Abidi Mir' portrait='/team/abbas abidi mir.png' role='Technical Manager'>
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
-                <TeamMember name='Kumel Hasni' portrait='/team/blank.png' role='Technical Manager'>
+                <TeamMember name='Kumel Hasni' portrait='/team/kumel hasni.png' role='Technical Manager'>
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
-                <TeamMember name='Ali Haidar Salak' portrait='/team/blank.png' role='Marketer'>
+                <TeamMember name='Ali Haidar Salak' portrait='/team/ali haidar salak.png' role='Marketer'>
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Muhammad Hadi Yusufali' portrait='/team/blank.png' role='Marketer'>
