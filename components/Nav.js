@@ -23,10 +23,10 @@ function Nav() {
 				<div className='flex md:order-2'>
 					<div className='mr-3 md:mr-0'>
 						<GradientButton
-							href='/classes'
+							href='/our-work'
 							className='hidden md:block md:text-base md:px-7 md:py-3 lg:px-12 lg:py-5 lg:text-2xl'
 						>
-							View Classes
+							Our Work
 						</GradientButton>
 					</div>
 					<button
@@ -68,23 +68,23 @@ function Nav() {
 				>
 					<ul className='flex w-full flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium'>
 						<li className='block py-2 pr-4 pl-3 text-brown sm:text-2xl md:text-lg xl:text-2xl border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'>
-							<Link href='/non-profits' passHref>
+							<Link href='/' passHref>
 								<span className='hover:text-blue cursor-pointer transition duration-200 ease-in-out'>
-									Non Profits
+									Home
 								</span>
 							</Link>
 						</li>
 						<li className='block py-2 pr-4 pl-3 text-brown sm:text-2xl md:text-lg xl:text-2xl border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'>
-							<Link href='/students' passHref>
+							<Link href='/contact-us' passHref>
 								<span className='hover:text-blue cursor-pointer transition duration-200 ease-in-out'>
-									Students
+									Contact Us
 								</span>
 							</Link>
 						</li>
 						<li className='block py-2 pr-4 pl-3 text-brown sm:text-2xl md:text-lg xl:text-2xl border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'>
-							<Link href='/about-us' passHref>
+							<Link href='/our-team' passHref>
 								<span className='hover:text-blue cursor-pointer transition duration-200 ease-in-out'>
-									About Us
+									Our Team
 								</span>
 							</Link>
 						</li>

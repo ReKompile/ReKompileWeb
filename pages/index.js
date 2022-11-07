@@ -43,8 +43,8 @@ export default function Home(props) {
                         <OutlineButton className='' href='/about-us'>
                             Our Team
                         </OutlineButton>
-                        <GradientButton className='ml-4' href='/classes'>
-                            Learn More
+                        <GradientButton className='ml-4' href='/our-work'>
+                            Our Work
                         </GradientButton>
                     </div>
                 </div>
