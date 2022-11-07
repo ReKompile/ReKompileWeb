@@ -26,7 +26,7 @@ function Nav() {
 							href='/our-work'
 							className='hidden md:block md:text-base md:px-7 md:py-3 lg:px-12 lg:py-5 lg:text-2xl'
 						>
-							Our Work
+							Learn More
 						</GradientButton>
 					</div>
 					<button

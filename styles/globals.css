@@ -81,8 +81,18 @@ body {
 .main-heading {
   text-align: left;
   color: #fddcd3;
-  font-size: 36px;
+  font-size: 35px;
   padding: 50px;
+  line-height: 106px;
+  letter-spacing: 3px;
+}
+.portfolio-header {
+  border: 4px solid #222222;
+  border-radius: 15px;
+  padding: 8px 16px;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 550;
   line-height: 106px;
   letter-spacing: 3px;
 }
@@ -154,7 +164,7 @@ body {
 
 .page-divider img {
   height: 200px;
-  margin-bottom: -100px;
+  margin-bottom: -170px;
   z-index: -1;
 }
 
@@ -176,7 +186,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 40px 10px 40px 40px;
   color: #ffffff;
   box-shadow: 5px 10px 5px #888888;
@@ -194,7 +204,13 @@ body {
   background-color: #e54e26;
 }
 
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
 .box-data {
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -206,15 +222,19 @@ body {
   font-weight: 700;
 }
 
-.box-data p {
-  font-size: 13px;
+
+.box-text {
+  font-size: 15px;
+  width: 80%;
 }
 
 .box-img {
-  background-color: #fff0ec;
-  border-radius: 5px;
-  padding: 20px;
   margin: 10px;
+}
+.box-img-img {
+  width: 700px;
+  border-radius: 25px;
+  border: 10px solid #FDDCD3;
 }
 
 @media (max-width: 768px) {
