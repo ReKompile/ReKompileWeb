@@ -15,37 +15,27 @@ export default function OurTeam() {
                     Ali thinks descriptions are boring. He mentions, though, that he codes every day.
                 </TeamMember>
                 <TeamMember name='Abid Raza Mir' portrait='/team/abid raza mir.png' role='Technical Advisor'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
+                    Abid is a software engineer who is a co-founder of a startup and a mentor at ReKompile.
                 </TeamMember>
                 <TeamMember name='Abbas Abidi Mir' portrait='/team/abbas abidi mir.png' role='Technical Manager'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Kumel Hasni' portrait='/team/kumel hasni.png' role='Technical Manager'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Ali Haidar Salak' portrait='/team/ali haidar salak.png' role='Marketer'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Muhammad Hadi Yusufali' portrait='/team/blank.png' role='Marketer'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Muhammad Abidi Mir' portrait='/team/blank.png' role='Recruiter'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Amin Kiaei' portrait='/team/blank.png' role='Developer'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Hayaan Rizvi' portrait='/team/blank.png' role='Developer'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Ali Isa Talebi' portrait='/team/blank.png' role='Developer'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Hasib Abbas' portrait='/team/blank.png' role='Developer'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
                 <TeamMember name='Hasan Abidi' portrait='/team/hasan abidi.png' role='Developer'>
-                    Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum 
                 </TeamMember>
             </div>
         </div>

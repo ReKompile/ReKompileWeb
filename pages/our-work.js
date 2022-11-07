@@ -1,11 +1,9 @@
 import Image from 'next/image'
-import GradientButton from '../../components/GradientButton'
-import Blob from '../../components/Blob'
-import { useRouter } from 'next/router'
-import PortfolioBox from '../../components/PortfolioBox'
+import GradientButton from '../components/GradientButton'
+import Blob from '../components/Blob'
+import PortfolioBox from '../components/PortfolioBox'
 
-export default function Classes() {
-	const { pathname } = useRouter()
+export default function OurWork() {
 
 	return (
 		<>
