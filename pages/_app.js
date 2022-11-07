@@ -28,38 +28,15 @@ function MyApp({ Component: Page, pageProps }) {
 				/>
 				<meta
 					name='description'
-					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
+					content='Rekompile is a nonprofit that helps nonprofits by providing them with the technological tools they need to succeed.'
 				/>
 
 				<meta property='og:type' content='website' />
 				<meta property='og:url' content='http://rekompile.org/' />
-				<meta
-					property='og:title'
-					content='ReKompile - The nonprofit for nonprofits'
-				/>
-				<meta
-					property='og:description'
-					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
-				/>
-				<meta property='og:image' content='/rekompile_home_page.png' />
-
-				<meta
-					property='twitter:card'
-					content='https://media.discordapp.net/attachments/836304486652706849/936756515593920552/unknown.png'
-				/>
-				<meta property='twitter:url' content='http://rekompile.org/' />
-				<meta
-					property='twitter:title'
-					content='ReKompile - The nonprofit for nonprofits'
-				/>
-				<meta
-					property='twitter:description'
-					content='ReKompile teaches high school students computer science and utilizes their skills to make a change by teaming them up with non profits in need'
-				/>
-				<meta
-					property='twitter:image'
-					content='/rekompile_home_page.png'
-				/>
+				<meta property='og:title' content='ReKompile - The nonprofit for nonprofits'/>
+				<meta property='og:description' content='Rekompile is a nonprofit that helps nonprofits by providing them with the technological tools they need to succeed.'/>
+				<meta property='og:image' content='/Logo-icon.png' />
+				<meta property="theme-color" content="#e25024" />
 			</Head>
 			<div
 				className={`bg-cream min-h-screen min-w-screen flex flex-col ${pageProps.className}`}
