@@ -3,9 +3,14 @@ import TeamMember from "../components/OurTeam/TeamMember";
 export default function OurTeam() {
 	return (
 		<div className='page-body relative flex-col'>
-			<header className='text-4xl md:text-5xl font-belgrano leading-normal text-center lg:text-lef my-10'>
+			<header className='text-4xl md:text-5xl font-belgrano leading-normal text-center lg:text-lef my-6 text-orange'>
 				Meet the Team
 			</header>
+			<div className='text-center text-xl -mb-3 text-[#222975]'>
+				Our team is our pride. These volunteers are the ones who make it
+				all happen.
+			</div>
+            <div className='text-orange text-5xl text-center mb-6'>...</div>
 
 			<div className='flex flex-wrap justify-center align-center mb-10'>
 				<TeamMember
@@ -113,7 +118,8 @@ export default function OurTeam() {
 					portrait='/team/abbas mirza.png'
 					role='Digital Marketer'
 				>
-					Abbas is a high school student who loves to generate ideas, get hands on, and enjoys problem solving and puzzles.
+					Abbas is a high school student who loves to generate ideas,
+					get hands on, and enjoys problem solving and puzzles.
 				</TeamMember>
 				<TeamMember
 					name='Ali Isa Talebi'
