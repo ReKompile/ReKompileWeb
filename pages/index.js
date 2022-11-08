@@ -35,7 +35,7 @@ export default function Home(props) {
 						</span>
 					</div>
 					<p className='text-2xl leading-normal lg:text-lg my-10 lg:w-3/4 mx-auto lg:mx-0'>
-						ReKompile is a registered non profit organization
+						ReKompile is a registered non-profit organization
 						started by students, with a mission of developing
 						websites and applications for charities and more. All
 						for free.
