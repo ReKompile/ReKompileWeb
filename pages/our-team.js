@@ -8,13 +8,13 @@ export default function OurTeam() {
             </header>
             
             <div className="flex flex-wrap justify-center align-center mb-10">
-                <TeamMember name='Zackaria Ghanbari' portrait='/team/zackaria ghanbari.jpg' role='Co-founder'>
+                <TeamMember name='Zackaria Ghanbari' portrait='/team/zackaria ghanbari.jpg' role='Co-founder & CTO'>
                     Zack has extensive experience in many areas of programming from web development to chatbots, and is passionate about creating new and innovative projects to help those in need.
                 </TeamMember>
-                <TeamMember name='Ali Rastegar' portrait='/team/ali rastegar.png' role='Co-founder'>
+                <TeamMember name='Ali Rastegar' portrait='/team/ali rastegar.png' role='Co-founder & CEO'>
                     Ali thinks descriptions are boring. He mentions, though, that he codes every day.
                 </TeamMember>
-                <TeamMember name='Abbas Raza Mir' portrait='/team/abbas raza mir.png' role='Co-founder'>
+                <TeamMember name='Abbas Raza Mir' portrait='/team/abbas raza mir.png' role='Co-founder & COO'>
                     High school student who loves programming, business, and hard work; changing the world, one step at a time.
                 </TeamMember>
                 <TeamMember name='Abid Raza Mir' portrait='/team/abid raza mir.png' role='Technical Advisor'>
