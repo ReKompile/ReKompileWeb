@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import Router from 'next/router'
 import Image from 'next/image'
+import Modal from 'react-modal'
+import CheckCircle from '@iconscout/react-unicons/icons/uil-check-circle'
 
 export default function ContactUs() {
 	const [state, setState] = useState({ email: '', mesage: '' })
@@ -20,11 +21,26 @@ export default function ContactUs() {
 
 	const handleSubmit = event => {
 		event.preventDefault()
-        sendMessage()
+		sendMessage()
 	}
 
 	const handleChange = (event, fieldName) => {
 		setState({ ...state, [fieldName]: event.target.value })
+	}
+
+	let subtitle
+	const [modalIsOpen, setIsOpen] = useState(false)
+
+	function openModal() {
+		setIsOpen(true)
+	}
+
+	function afterOpenModal() {
+		console.log('AFTER OPEN MODAL')
+	}
+
+	function closeModal() {
+		setIsOpen(false)
 	}
 
 	return (
@@ -99,12 +115,63 @@ export default function ContactUs() {
 
 					<button
 						type='submit'
+						onClick={openModal}
 						className='group relative flex w-full justify-center rounded-md border border-transparent bg-orange py-2 px-4 text-sm font-medium text-white hover:bg-orange focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
 					>
 						Submit
 					</button>
 				</form>
 			</div>
+			<ModalElem
+				openModal={openModal}
+				modalIsOpen={modalIsOpen}
+				afterOpenModal={afterOpenModal}
+				closeModal={closeModal}
+			/>
 		</>
+	)
+}
+
+const customStyles = {
+	content: {
+		top: '50%',
+		left: '50%',
+		right: 'auto',
+		bottom: 'auto',
+		marginRight: '-50%',
+		transform: 'translate(-50%, -50%)',
+	},
+}
+
+function ModalElem({ modalIsOpen, afterOpenModal, closeModal }) {
+	return (
+		<div>
+			<Modal
+				isOpen={modalIsOpen}
+				onAfterOpen={afterOpenModal}
+				onRequestClose={closeModal}
+				style={customStyles}
+				contentLabel='Message Sent'
+			>
+				<div className='text-center p-8'>
+					<CheckCircle
+						className='mx-auto'
+						size='65'
+						color='#F1662A'
+					/>
+					<div className='text-2xl py-3'>Message succesfully sent</div>
+					<div className='opacity-60 pb-1'>
+						We hope to get back to you soon.
+					</div>
+				</div>
+				<button
+					type='button'
+					className='group relative flex w-full justify-center rounded-md border border-transparent bg-orange py-2 px-4 text-sm font-medium text-white hover:bg-orange focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
+					onClick={closeModal}
+				>
+					Close
+				</button>
+			</Modal>
+		</div>
 	)
 }

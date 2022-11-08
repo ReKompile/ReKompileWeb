@@ -11,7 +11,7 @@ module.exports = {
 				darkcream: '#ffd1c4',
 				orange: '#F1662A',
 				brown: '#534748',
-                skyblue: '97D1E1',
+                skyblue: '#97D1E1',
 				blue: '#2ab5f1'
 			},
 			backgroundImage: {
