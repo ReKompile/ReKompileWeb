@@ -29,7 +29,6 @@ export default function ContactUs() {
 
 	return (
 		<>
-			{/* <h1 className='mx-auto text-5xl z-1'>Get in touch with us!</h1> */}
 			<div className='overflow-hidden w-full h-5/6 absolute inset-x-0 bottom-5 z-0'>
 				<Image
 					src='/contact_us_illustration.svg'
