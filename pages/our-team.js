@@ -1,3 +1,5 @@
+import Link from "next/link";
+import GradientButton from "../components/GradientButton";
 import TeamMember from "../components/OurTeam/TeamMember";
 
 export default function OurTeam() {
@@ -47,6 +49,14 @@ export default function OurTeam() {
                 <TeamMember name='Hasan Abidi' portrait='/team/hasan abidi.png' role='Developer'>
                 </TeamMember>
             </div>
+
+            <div className="mb-10">
+                <h3 className="text-3xl md:text-4xl font-belgrano leading-normal text-center lg:text-lef mb-5">Want to join?</h3>
+                <GradientButton href='/contact-us' className='mx-auto block'>
+                    Contact us!
+                </GradientButton>
+            </div>
+
         </div>
 	)
 }
