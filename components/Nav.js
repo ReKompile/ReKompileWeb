@@ -1,15 +1,27 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Image from 'next/image'
 import GradientButton from './GradientButton'
 import Link from 'next/link'
 
+
 function Nav() {
 	const [mobileOpen, setMobileOpen] = useState(false)
+
+	useEffect(() => {
+		function checkMobileMenu() {
+			if (window.innerWidth > 768 && mobileOpen) {
+				setMobileOpen(false)
+			}
+		}
+		window.addEventListener('resize', checkMobileMenu)
+
+		return () => window.removeEventListener('resize', checkMobileMenu)
+	}, [mobileOpen])
 
 	return (
 		<nav className='md:py-5 py-10 rounded z-50 relative bg-cream'>
 			<div className='container flex flex-wrap justify-between items-center mx-auto'>
-				<div className='block w-1/2 md:w-1/3 lg:w-1/4'>
+				<div className='block w-1/2 md:w-1/3 lg:w-1/4 ml-2'>
 					<Link href='/' passHref>
 						<Image
 							src='/logo.svg'
@@ -88,6 +100,15 @@ function Nav() {
 								</span>
 							</Link>
 						</li>
+						{mobileOpen && (
+								<li className='block py-2 pr-4 pl-3 text-brown sm:text-2xl md:text-lg xl:text-2xl border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'>
+								<Link href='/our-work' passHref>
+									<span className='hover:text-blue cursor-pointer transition duration-200 ease-in-out'>
+										Learn More
+									</span>
+								</Link>
+							</li>
+						)}
 					</ul>
 				</div>
 			</div>

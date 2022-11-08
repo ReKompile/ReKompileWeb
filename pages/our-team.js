@@ -42,6 +42,7 @@ export default function OurTeam() {
                     Isa is a high school student interested in data science, artificial intelligence and physics. He hopes to build emerging technologies driven by AI.
                 </TeamMember>
                 <TeamMember name='Hasib Abbas' portrait='/team/hasib abbas.png' role='Developer'>
+                    A high schooler looking to broaden his horizon with new experiences of working at a non-profit organization.
                 </TeamMember>
                 <TeamMember name='Hasan Abidi' portrait='/team/hasan abidi.png' role='Developer'>
                 </TeamMember>
