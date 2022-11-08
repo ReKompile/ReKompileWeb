@@ -38,7 +38,7 @@ export default function OurTeam() {
                 <TeamMember name='Hayaan Rizvi' portrait='/team/hayaan rizvi.png' role='Developer'>
                     A creative 3D artist and efficient programmer, Hayaan is an expert in Blender and has worked with a varied myriad of apps and programming languages.
                 </TeamMember>
-                <TeamMember name='Ali Isa Talebi' portrait='/team/blank.png' role='Developer'>
+                <TeamMember name='Ali Isa Talebi' portrait='/team/ali isa talebi.png' role='Developer'>
                     Isa is a high school student interested in data science, artificial intelligence and physics. He hopes to build emerging technologies driven by AI.
                 </TeamMember>
                 <TeamMember name='Hasib Abbas' portrait='/team/hasib abbas.png' role='Developer'>
