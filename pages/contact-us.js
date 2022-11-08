@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Router from 'next/router'
+import Image from 'next/image'
 
 export default function ContactUs() {
 	const [state, setState] = useState({ email: '', mesage: '' })
@@ -20,7 +21,6 @@ export default function ContactUs() {
 	const handleSubmit = event => {
 		event.preventDefault()
         sendMessage()
-        Router.push('/')
 	}
 
 	const handleChange = (event, fieldName) => {
@@ -29,6 +29,14 @@ export default function ContactUs() {
 
 	return (
 		<>
+			<div className='overflow-hidden w-full h-5/6 absolute inset-x-0 bottom-5 z-0'>
+				<Image
+					src='/contact_us_illustration.svg'
+					layout='fill'
+					alt='contact us'
+				/>
+			</div>
+
 			<div className='mx-auto w-full my-10 block p-6 rounded-lg shadow-lg bg-white max-w-sm'>
 				<form onSubmit={handleSubmit}>
 					<div className='form-group mb-6'>
@@ -91,30 +99,12 @@ export default function ContactUs() {
 
 					<button
 						type='submit'
-						className='
-      px-6
-      py-2.5
-      bg-orange
-      text-white
-      font-medium
-      text-xs
-      leading-tight
-      uppercase
-      rounded
-      shadow-md
-      hover:bg-blue-700 hover:shadow-lg
-      focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-      active:bg-blue-800 active:shadow-lg
-      transition
-      duration-150
-      ease-in-out'
+						className='group relative flex w-full justify-center rounded-md border border-transparent bg-orange py-2 px-4 text-sm font-medium text-white hover:bg-orange focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2'
 					>
 						Submit
 					</button>
 				</form>
 			</div>
-
-		
 		</>
 	)
 }
