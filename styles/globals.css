@@ -321,6 +321,14 @@ p {
   box-sizing: border-box;
 }
 
+    .modal {
+      transition: opacity 0.25s ease;
+    }
+    body.modal-active {
+      overflow-x: hidden;
+      overflow-y: visible !important;
+    }
+
 #cover {
   /* position: relative; */
   background: url("../public/webDevAssets/background-image-code.png");

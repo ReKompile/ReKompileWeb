@@ -9,14 +9,6 @@ function MyApp({ Component: Page, pageProps }) {
 				{/* Fonts */}
 				<link rel='preconnect' href='https://fonts.googleapis.com' />
 				<link rel='preconnect' href='https://fonts.gstatic.com' />
-				<link
-					href='https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap'
-					rel='stylesheet'
-				/>
-				<link
-					href='https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Belgrano&display=swap'
-					rel='stylesheet'
-				></link>
 
 				<title>
 					ReKompile - The nonprofit for nonprofits
@@ -38,7 +30,7 @@ function MyApp({ Component: Page, pageProps }) {
 				<meta property='og:image' content='/Logo-icon.png' />
 				<meta property="theme-color" content="#e25024" />
 			</Head>
-			<div
+			<div id='app'
 				className={`bg-cream min-h-screen min-w-screen flex flex-col ${pageProps.className}`}
 			>
 				<Nav />
