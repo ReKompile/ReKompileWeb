@@ -1,3 +1,5 @@
+import Link from "next/link";
+import GradientButton from "../components/GradientButton";
 import TeamMember from "../components/OurTeam/TeamMember";
 
 export default function OurTeam() {
@@ -27,7 +29,7 @@ export default function OurTeam() {
 					portrait='/team/ali rastegar.png'
 					role='Co-founder & CEO'
 				>
-					Ali is a passionate activist, data scientist, and high schol
+					Ali is a passionate activist, data scientist, and high school
 					student. He is a strong believer in the power of
 					entrepreneurship and technology to help underserved
 					communities. He also codes everyday.
@@ -97,6 +99,13 @@ export default function OurTeam() {
 					all things tech.
 				</TeamMember>
 				<TeamMember
+					name='Abbas Mirza'
+					portrait='/team/abbas mirza.png'
+					role='Digital Marketer'
+				>
+					Abbas is a high school student who loves to generate ideas, get hands on, and enjoys problem solving and puzzles.
+				</TeamMember>
+				<TeamMember
 					name='Abdullah Raza Mir'
 					portrait='/team/abdullah raza mir.png'
 					role='Talent Acquisition Specialist'
@@ -139,6 +148,13 @@ export default function OurTeam() {
 					experiences of working at a non-profit organization.
 				</TeamMember>
 			</div>
+
+            <div className="mb-10">
+                <h3 className="text-3xl md:text-4xl font-belgrano leading-normal text-center lg:text-lef mb-5">Want to join?</h3>
+                <GradientButton href='/contact-us' className='mx-auto block'>
+                    Contact us!
+                </GradientButton>
+            </div>
 		</div>
 	)
 }
