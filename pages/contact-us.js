@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Modal from 'react-modal'
-import CheckCircle from '@iconscout/react-unicons/icons/uil-check-circle'
 
 export default function ContactUs() {
 	const [state, setState] = useState({ email: '', mesage: '' })
@@ -154,11 +153,6 @@ function ModalElem({ modalIsOpen, afterOpenModal, closeModal }) {
 				contentLabel='Message Sent'
 			>
 				<div className='text-center p-8'>
-					<CheckCircle
-						className='mx-auto'
-						size='65'
-						color='#F1662A'
-					/>
 					<div className='text-2xl py-3'>Message succesfully sent</div>
 					<div className='opacity-60 pb-1'>
 						We hope to get back to you soon.

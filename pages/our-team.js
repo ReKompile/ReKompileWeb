@@ -1,4 +1,3 @@
-import Link from "next/link";
 import GradientButton from "../components/GradientButton";
 import TeamMember from "../components/OurTeam/TeamMember";
 
