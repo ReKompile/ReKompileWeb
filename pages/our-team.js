@@ -1,4 +1,5 @@
 import GradientButton from "../components/GradientButton";
+import TeamList from "../components/OurTeam/TeamList";
 import TeamMember from "../components/OurTeam/TeamMember";
 
 export default function OurTeam() {
@@ -13,7 +14,7 @@ export default function OurTeam() {
 			</div>
             <div className='text-orange text-5xl text-center mb-6'>...</div>
 
-			<div className='flex flex-wrap justify-center align-center mb-10'>
+			<TeamList>
 				<TeamMember
 					name='Zackaria Ghanbari'
 					portrait='/team/zackaria ghanbari.jpg'
@@ -138,7 +139,7 @@ export default function OurTeam() {
 					A high schooler looking to broaden his horizon with new
 					experiences of working at a non-profit organization.
 				</TeamMember>
-			</div>
+			</TeamList>
 
             <div className="mb-10">
                 <h3 className="text-3xl md:text-4xl font-belgrano leading-normal text-center lg:text-lef mb-5">Want to join?</h3>
