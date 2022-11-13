@@ -30,7 +30,7 @@ function TeamList({children}) {
 
     return (
         <>
-            <div className="flex justify-center mb-10 mx-1 md:mx-5 md:mx-10">
+            <div className="flex justify-center mb-10 mx-1 md:mx-10 lg:mx-20">
                 {colFlexChildren.map((col, i) => (
                     <div className="inline-flex flex-col justify-center align-center basis-full" key={i}>
                         {col}
