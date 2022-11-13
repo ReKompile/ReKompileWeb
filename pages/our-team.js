@@ -122,14 +122,6 @@ export default function OurTeam() {
 					and help serve the community.
 				</TeamMember>
 				<TeamMember
-					name='Abbas Mirza'
-					portrait='/team/abbas mirza.png'
-					role='Digital Marketer'
-				>
-					Abbas is a high school student who loves to generate ideas,
-					get hands on, and enjoys problem solving and puzzles.
-				</TeamMember>
-				<TeamMember
 					name='Ali Isa Talebi'
 					portrait='/team/ali isa talebi.png'
 					role='Software Developer'
