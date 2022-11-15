@@ -12,7 +12,7 @@ export default function OurTeam() {
 				Our team is our pride. These volunteers are the ones who make it
 				all happen.
 			</div>
-            <div className='text-orange text-5xl text-center mb-6'>...</div>
+			<div className='text-orange text-5xl text-center mb-6'>...</div>
 
 			<TeamList>
 				<TeamMember
@@ -29,8 +29,8 @@ export default function OurTeam() {
 					portrait='/team/ali rastegar.png'
 					role='Co-founder & CEO'
 				>
-					Ali is a passionate activist, data scientist, and high school
-					student. He is a strong believer in the power of
+					Ali is a passionate activist, data scientist, and high
+					school student. He is a strong believer in the power of
 					entrepreneurship and technology to help underserved
 					communities. He also codes everyday.
 				</TeamMember>
@@ -93,7 +93,7 @@ export default function OurTeam() {
 				<TeamMember
 					name='Ali Haidar Salak'
 					portrait='/team/ali haidar salak.png'
-					role='Digital Marketer'
+					role='Digital Marketing Strategist'
 				>
 					Salak is him, and I am Salak. Avid sports fan and a lover of
 					all things tech.
@@ -101,9 +101,10 @@ export default function OurTeam() {
 				<TeamMember
 					name='Abbas Mirza'
 					portrait='/team/abbas mirza.png'
-					role='Digital Marketer'
+					role='Digital Marketing Strategist'
 				>
-					Abbas is a high school student who loves to generate ideas, get hands on, and enjoys problem solving and puzzles.
+					Abbas is a high school student who loves to generate ideas,
+					get hands on, and enjoys problem solving and puzzles.
 				</TeamMember>
 				<TeamMember
 					name='Abdullah Raza Mir'
@@ -141,12 +142,14 @@ export default function OurTeam() {
 				</TeamMember>
 			</TeamList>
 
-            <div className="mb-10">
-                <h3 className="text-3xl md:text-4xl font-belgrano leading-normal text-center lg:text-lef mb-5">Want to join?</h3>
-                <GradientButton href='/contact-us' className='mx-auto block'>
-                    Contact us!
-                </GradientButton>
-            </div>
+			<div className='mb-10'>
+				<h3 className='text-3xl md:text-4xl font-belgrano leading-normal text-center lg:text-lef mb-5'>
+					Want to join?
+				</h3>
+				<GradientButton href='/contact-us' className='mx-auto block'>
+					Contact us!
+				</GradientButton>
+			</div>
 		</div>
 	)
 }
