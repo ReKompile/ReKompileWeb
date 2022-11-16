@@ -40,7 +40,7 @@ export default function OurTeam() {
 					role='Co-founder & COO'
 				>
 					Abbas is a high school student who loves the computer programming and business.
-					He believes computers are the world's most powerful weapon, and he strongly advocates
+					He believes computers are the world&apos;s most powerful weapon, and he strongly advocates
 					for using the technology we have today for making the world a better place.
 				</TeamMember>
 				<TeamMember
