@@ -39,9 +39,9 @@ export default function OurTeam() {
 					portrait='/team/abbas raza mir.png'
 					role='Co-founder & COO'
 				>
-					Abbas is a high school student who loves programming,
-					business, and hard work; changing the world, one step at a
-					time.
+					Abbas is a high school student who loves the computer programming and business.
+					He believes computers are the world's most powerful weapon, and he strongly advocates
+					for using the technology we have today for making the world a better place.
 				</TeamMember>
 				<TeamMember
 					name='Abid Raza Mir'
