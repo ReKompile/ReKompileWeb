@@ -1,6 +1,6 @@
-import GradientButton from "../components/GradientButton";
-import TeamList from "../components/OurTeam/TeamList";
-import TeamMember from "../components/OurTeam/TeamMember";
+import GradientButton from '../components/GradientButton'
+import TeamList from '../components/OurTeam/TeamList'
+import TeamMember from '../components/OurTeam/TeamMember'
 
 export default function OurTeam() {
 	return (
@@ -97,6 +97,17 @@ export default function OurTeam() {
 				>
 					Salak is him, and I am Salak. Avid sports fan and a lover of
 					all things tech.
+				</TeamMember>
+				<TeamMember
+					name='Jari Rizvi'
+					portrait='/team/jari rizvi.png'
+					role='Digital Marketing Strategist'
+				>
+					Jari Rizvi is a high school student who is interested in
+					business and marketing. He has started a small business, and
+					he is always looking for new ways to market his products and
+					services. He is creative and resourceful, and he enjoys
+					using social media to connect with new people.{' '}
 				</TeamMember>
 				<TeamMember
 					name='Abbas Mirza'
