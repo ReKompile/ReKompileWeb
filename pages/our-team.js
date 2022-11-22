@@ -107,7 +107,7 @@ export default function OurTeam() {
 					business and marketing. He has started a small business, and
 					he is always looking for new ways to market his products and
 					services. He is creative and resourceful, and he enjoys
-					using social media to connect with new people.{' '}
+					using social media to connect with new people.
 				</TeamMember>
 				<TeamMember
 					name='Abbas Mirza'
