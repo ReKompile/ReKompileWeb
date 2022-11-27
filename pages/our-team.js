@@ -48,7 +48,7 @@ export default function OurTeam() {
 					portrait='/team/abid raza mir.png'
 					role='Technology & Strategy Advisor'
 				>
-					Abid is a college student who is a co-founder of an exicting
+					Abid is a university student who is a co-founder of an exciting
 					Silicon Valley crypto startup. He also serves as a mentor
 					and advisor at ReKompile.
 				</TeamMember>
