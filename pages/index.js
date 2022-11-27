@@ -38,7 +38,7 @@ export default function Home(props) {
 						ReKompile is a registered non-profit led by students,
 						with a mission of developing state-of-the-art
 						technology solutions and applications for other
-						non-profits. Fully free of charge. That&apos;s our
+						non-profits. Fully free of charge--so they can focus on their mission. That&apos;s our
 						promise.
 					</p>
 					<div className='flex'>
