@@ -229,7 +229,7 @@ p {
 
 
 .box-text {
-  font-size: 15px;
+  font-size: 18px;
   width: 80%;
 }
 
@@ -279,7 +279,7 @@ p {
     margin: 10px 0;
   }
   .box-text {
-    font-size: 23px;
+    font-size: 15px;
     width: 100%;
   }
 }
