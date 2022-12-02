@@ -115,6 +115,16 @@ export default function OurTeam() {
 					driven to tackle old problems in new ways.
 				</TeamMember>
 				<TeamMember
+					name='Rasol Alofi'
+					portrait='/team/blank.png'
+					role='Software Developer'
+				>
+					Rasol is an eager computer science student and developer looking to transform the field of medicine through
+					software solutions. He aspires to specialize in Machine Learning & Artificial Intelligence and Bioinformatics
+					to develop a product which reduces the risk of illness and improves overall health. As a pastime, he enjoys
+					building projects, learning about new technologies, volunteering, and binging shows. 
+				</TeamMember>
+				<TeamMember
 					name='Amin Kiaei'
 					portrait='/team/amin kiaei.png'
 					role='Software Developer'
