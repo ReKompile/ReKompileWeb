@@ -72,7 +72,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Rasol Alofi'
-					portrait='/team/blank.png'
+					portrait='/team/rasol alofi.png'
 					role='Technical Project Manager'
 				>
 					Rasol is an eager computer science student and developer looking to transform the field of medicine through
