@@ -71,6 +71,16 @@ export default function OurTeam() {
 					non-profit sector and leads Community Connector.
 				</TeamMember>
 				<TeamMember
+					name='Rasol Alofi'
+					portrait='/team/rasol alofi.png'
+					role='Technical Project Manager'
+				>
+					Rasol is an eager computer science student and developer looking to transform the field of medicine through
+					software solutions. He aspires to specialize in Machine Learning & Artificial Intelligence and Bioinformatics
+					to develop a product which reduces the risk of illness and improves overall health. As a pastime, he enjoys
+					building projects, learning about new technologies, volunteering, and binging shows. 
+				</TeamMember>
+				<TeamMember
 					name='Hayaan Rizvi'
 					portrait='/team/hayaan rizvi.png'
 					role='Lead Software Developer'
