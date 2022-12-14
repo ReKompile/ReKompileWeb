@@ -12,7 +12,8 @@ module.exports = {
 				orange: '#F1662A',
 				brown: '#534748',
                 skyblue: '#97D1E1',
-				blue: '#2ab5f1'
+				blue: '#2ab5f1',
+				navy: "#2F2E41"
 			},
 			backgroundImage: {
 				'under-construction': "url('/under-construction.jpg')",

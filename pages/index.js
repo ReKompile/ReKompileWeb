@@ -1,6 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import GradientButton from '../components/GradientButton'
 import OutlineButton from '../components/OutlineButton'
+
 
 export default function Home(props) {
 	return (
@@ -35,11 +37,22 @@ export default function Home(props) {
 						</span>
 					</div>
 					<p className='text-2xl leading-normal lg:text-lg my-10 lg:w-3/4 mx-auto lg:mx-0'>
-						ReKompile is a registered non-profit led by students,
-						with a mission of developing state-of-the-art
-						technology solutions and applications for other
-						non-profits. Fully free of charge--so they can focus on their mission. That&apos;s our
-						promise.
+						ReKompile is a registered non-profit led by students.
+						Our mission is to{' '}
+						<span className='text-orange font-bold'>
+							leverage technology to empower nonprofits to focus
+							on their mission & maximize community impact{' '}
+						</span>
+						We manage & build websites and mobile apps for
+						nonprofits around the world, fully free of charge. If
+						you know an organization who&#39;d like to work with us,
+						or you&#39;re a student who&#39;d like to join the team,
+						{'  '}
+						<Link href='/contact-us' passHref>
+							<a className='underline decoration-skyblue hover:decoration-orange transition duration-300 ease-in-out'>
+								reach out!
+							</a>
+						</Link>
 					</p>
 					<div className='flex'>
 						<OutlineButton href='/our-team'>Our Team</OutlineButton>
