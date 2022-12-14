@@ -27,7 +27,6 @@ export default function ContactUs() {
 		setState({ ...state, [fieldName]: event.target.value })
 	}
 
-	let subtitle
 	const [modalIsOpen, setIsOpen] = useState(false)
 
 	function openModal() {
@@ -49,6 +48,7 @@ export default function ContactUs() {
 					src='/contact_us_illustration.svg'
 					layout='fill'
 					alt='contact us'
+					unoptimized
 				/>
 			</div>
 

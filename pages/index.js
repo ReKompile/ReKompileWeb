@@ -28,7 +28,7 @@ export default function Home(props) {
 								alt='star'
 							/>
 						</div>
-						Our mission
+						What we do
 					</div>
 					<div className='text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-belgrano leading-normal text-center lg:text-left'>
 						The non&#8209;profit, for&nbsp;
@@ -37,19 +37,19 @@ export default function Home(props) {
 						</span>
 					</div>
 					<p className='text-2xl leading-normal lg:text-lg my-10 lg:w-3/4 mx-auto lg:mx-0'>
-						ReKompile is a registered non-profit led by students.
-						Our mission is to{' '}
-						<span className='text-orange font-bold'>
-							leverage technology to empower nonprofits to focus
-							on their mission & maximize community impact{' '}
+						ReKompile is a registered non-profit led by students.{'  '}
+						<span className='font-bold'>
+							Our mission is to leverage technology to empower
+							nonprofits to focus on their mission & maximize
+							community impact.{' '}
 						</span>
-						We manage & build websites and mobile apps for
+						We manage and build websites and mobile apps for
 						nonprofits around the world, fully free of charge. If
 						you know an organization who&#39;d like to work with us,
 						or you&#39;re a student who&#39;d like to join the team,
 						{'  '}
 						<Link href='/contact-us' passHref>
-							<a className='underline decoration-skyblue hover:decoration-orange transition duration-300 ease-in-out'>
+							<a className='underline text-orange decoration-orange transition duration-300 ease-in-out'>
 								reach out!
 							</a>
 						</Link>
