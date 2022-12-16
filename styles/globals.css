@@ -329,19 +329,6 @@ p {
       overflow-y: visible !important;
     }
 
-#cover {
-  /* position: relative; */
-  background: url("../public/webDevAssets/background-image-code.png");
-  background-size: cover;
-  width: 80%;
-  height: 75vh;
-  border-radius: 25px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 .content {
   max-width: 900px;

@@ -39,18 +39,20 @@ export default function OurTeam() {
 					portrait='/team/abbas raza mir.png'
 					role='Co-founder & COO'
 				>
-					Abbas is a high school student who loves the computer programming and business.
-					He believes computers are the world&apos;s most powerful weapon, and he strongly advocates
-					for using the technology we have today for making the world a better place.
+					Abbas is a high school student who loves the computer
+					programming and business. He believes computers are the
+					world&apos;s most powerful weapon, and he strongly advocates
+					for using the technology we have today for making the world
+					a better place.
 				</TeamMember>
 				<TeamMember
 					name='Abid Raza Mir'
 					portrait='/team/abid raza mir.png'
 					role='Technology & Strategy Advisor'
 				>
-					Abid is a university student who is a co-founder of an exciting
-					Silicon Valley crypto startup. He also serves as a mentor
-					and advisor at ReKompile.
+					Abid is a university student who is a co-founder of an
+					exciting Silicon Valley crypto startup. He also serves as a
+					mentor and advisor at ReKompile.
 				</TeamMember>
 				<TeamMember
 					name='Hasan Abidi'
@@ -75,10 +77,14 @@ export default function OurTeam() {
 					portrait='/team/rasol alofi.png'
 					role='Technical Project Manager'
 				>
-					Rasol is an eager computer science student and developer looking to transform the field of medicine through
-					software solutions. He aspires to specialize in Machine Learning & Artificial Intelligence and Bioinformatics
-					to develop a product which reduces the risk of illness and improves overall health. As a pastime, he enjoys
-					building projects, learning about new technologies, volunteering, and binging shows. 
+					Rasol is an eager computer science student and developer
+					looking to transform the field of medicine through software
+					solutions. He aspires to specialize in Machine Learning &
+					Artificial Intelligence and Bioinformatics to develop a
+					product which reduces the risk of illness and improves
+					overall health. As a pastime, he enjoys building projects,
+					learning about new technologies, volunteering, and binging
+					shows.
 				</TeamMember>
 				<TeamMember
 					name='Hayaan Rizvi'
@@ -88,6 +94,16 @@ export default function OurTeam() {
 					A creative 3D artist and efficient programmer, Hayaan is an
 					expert in Blender and has worked with a varied myriad of
 					apps and programming languages.
+				</TeamMember>
+				<TeamMember
+					name='Hasnain Mirza'
+					portrait='/team/hasnain mirza.png'
+					role='Digital Marketing Specialist'
+				>
+					Hasnain is a uiversity student who is interested in
+					anything STEM related, and is studying to make it into the
+					biotechnology industry in order to improve the
+					quality of life and well-being of individuals and serve society.
 				</TeamMember>
 				<TeamMember
 					name='Muhammad Hadi Yusufali'
