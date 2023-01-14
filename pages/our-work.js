@@ -183,6 +183,13 @@ export default function OurWork() {
 						link=''
 						color='secondary'
 					/>
+					<PortfolioBox
+						title='Afghan Kidney Association'
+						description='Dialysis treatment is expensive and difficult to come by in Afghanistan, and the Afghan Kidney Association works to provide access to essential treatment for those who need it. Without dialysis, patients can experience a range of severe complications and eventually succumb to kidney failure. The Afghan Kidney Association works to ensure that those who need dialysis can receive it.'
+						image='\portfolioAssets\site-under-construction.png'
+						link=''
+						color='warning'
+					/>
 				</div>
 			</div>
 		</>
