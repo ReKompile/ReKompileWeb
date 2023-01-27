@@ -179,8 +179,8 @@ export default function OurWork() {
 					<PortfolioBox
 						title='Senior Aid for Corona'
 						description='Senior Aid for Corona is a nonprofit organization that aims to provide financial assistance to seniors who are struggling to pay for their basic needs during and after the COVID-19 pandemic. They are currently raising funds to help seniors with food, medicine, and other essentials.'
-						image='\portfolioAssets\site-under-construction.png'
-						link=''
+						image='\portfolioAssets\senior_aid_for_corona.png'
+						link='https://sites.google.com/view/senior-aid-for-corona/home?pli=1'
 						color='secondary'
 					/>
 					<PortfolioBox

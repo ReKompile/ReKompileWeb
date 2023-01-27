@@ -100,15 +100,14 @@ function Nav() {
 								</span>
 							</Link>
 						</li>
-						{mobileOpen && (
-								<li className='block py-2 pr-4 pl-3 text-brown sm:text-2xl md:text-lg xl:text-2xl border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'>
-								<Link href='/our-work' passHref>
-									<span className='hover:text-blue cursor-pointer transition duration-200 ease-in-out'>
-										Learn More
-									</span>
-								</Link>
-							</li>
-						)}
+						<li className='block py-2 pr-4 pl-3 text-brown sm:text-2xl md:text-lg xl:text-2xl border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'>
+							<Link href='/our-work' passHref>
+								<span className='hover:text-blue cursor-pointer transition duration-200 ease-in-out'>
+									Our Work
+								</span>
+							</Link>
+						</li>
+						
 					</ul>
 				</div>
 			</div>

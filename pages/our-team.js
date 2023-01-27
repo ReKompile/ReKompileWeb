@@ -32,7 +32,7 @@ export default function OurTeam() {
 					Ali is a passionate activist, data scientist, and high
 					school student. He is a strong believer in the power of
 					entrepreneurship and technology to help underserved
-					communities. He also codes everyday.
+					communities. He also codes every day.
 				</TeamMember>
 				<TeamMember
 					name='Abbas Raza Mir'
