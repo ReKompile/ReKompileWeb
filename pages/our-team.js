@@ -17,29 +17,28 @@ export default function OurTeam() {
 			<TeamList>
 				<TeamMember
 					name='Zackaria Ghanbari'
-					portrait='/team/zackaria ghanbari.jpg'
+					portrait='/team/zackaria_ghanbari.jpg'
 					role='Co-founder & CTO'
 				>
-					Zack has extensive experience in many areas of programming
+					Zack is an undergraduate student at Santa Clara University who has extensive experience in many areas of programming
 					from web development to chatbots, and is passionate about
 					creating new and innovative projects to help those in need.
 				</TeamMember>
 				<TeamMember
 					name='Ali Rastegar'
-					portrait='/team/ali rastegar.png'
+					portrait='/team/ali_rastegar.png'
 					role='Co-founder & CEO'
 				>
-					Ali is a passionate activist, data scientist, and high
-					school student. He is a strong believer in the power of
+					Ali is a passionate activist, data scientist, and undergraduate student at UCLA. He is a strong believer in the power of
 					entrepreneurship and technology to help underserved
-					communities. He also codes every day.
+					communities. He also codes (almost) every day.
 				</TeamMember>
 				<TeamMember
 					name='Abbas Raza Mir'
-					portrait='/team/abbas raza mir.png'
+					portrait='/team/abbas_raza_mir.png'
 					role='Co-founder & COO'
 				>
-					Abbas is a high school student who loves the computer
+					Abbas is an undergradudate student at UC Berkeley who loves computer
 					programming and business. He believes computers are the
 					world&apos;s most powerful weapon, and he strongly advocates
 					for using the technology we have today for making the world
@@ -47,16 +46,16 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Abid Raza Mir'
-					portrait='/team/abid raza mir.png'
+					portrait='/team/abid_raza_mir.png'
 					role='Technology & Strategy Advisor'
 				>
 					Abid is a university student who is a co-founder of an
-					exciting Silicon Valley crypto startup. He also serves as a
+					exciting Silicon Valley startup. He also serves as a
 					mentor and advisor at ReKompile.
 				</TeamMember>
 				<TeamMember
 					name='Hasan Abidi'
-					portrait='/team/hasan abidi.png'
+					portrait='/team/hasan_abidi.png'
 					role='Director of Technology Development'
 				>
 					Hasan is a college student who is enamored by the disruptive
@@ -65,7 +64,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Kumel Hasni'
-					portrait='/team/kumel hasni.png'
+					portrait='/team/kumel_hasni.png'
 					role='Technical Project Manager'
 				>
 					Kumel is a high school student who is interested in
@@ -74,7 +73,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Rasol Alofi'
-					portrait='/team/rasol alofi.png'
+					portrait='/team/rasol_alofi.png'
 					role='Technical Project Manager'
 				>
 					Rasol is an eager computer science student and developer
@@ -88,7 +87,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Hayaan Rizvi'
-					portrait='/team/hayaan rizvi.png'
+					portrait='/team/hayaan_rizvi.png'
 					role='Lead Software Developer'
 				>
 					A creative 3D artist and efficient programmer, Hayaan is an
@@ -97,7 +96,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Hasnain Mirza'
-					portrait='/team/hasnain mirza.png'
+					portrait='/team/hasnain_mirza.png'
 					role='Digital Marketing Specialist'
 				>
 					Hasnain is a uiversity student who is interested in
@@ -107,7 +106,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Muhammad Hadi Yusufali'
-					portrait='/team/muhammad hadi yusufali.png'
+					portrait='/team/muhammad_hadi_yusufali.png'
 					role='Director of Digital Marketing'
 				>
 					M Hadi is a high school student who is also a Multimedia
@@ -118,15 +117,14 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Ali Haidar Salak'
-					portrait='/team/ali haidar salak.png'
+					portrait='/team/ali_haidar_salak.png'
 					role='Digital Marketing Strategist'
 				>
-					Salak is him, and I am Salak. Avid sports fan and a lover of
-					all things tech.
+					Ali Salak is an undergraudate student at UC Davis who is interested in the intersection of technology and biology. He is passionate about using technology to help others and is excited to be a part of the ReKompile team.
 				</TeamMember>
 				<TeamMember
 					name='Jari Rizvi'
-					portrait='/team/jari rizvi.png'
+					portrait='/team/jari_rizvi.png'
 					role='Digital Marketing Strategist'
 				>
 					Jari Rizvi is a high school student who is interested in
@@ -137,7 +135,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Abbas Mirza'
-					portrait='/team/abbas mirza.png'
+					portrait='/team/abbas_mirza.png'
 					role='Digital Marketing Strategist'
 				>
 					Abbas is a high school student who loves to generate ideas,
@@ -145,7 +143,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Abdullah Raza Mir'
-					portrait='/team/abdullah raza mir.png'
+					portrait='/team/abdullah_raza_mir.png'
 					role='Talent Acquisition Specialist'
 				>
 					Abdullah is a high school student who is highly creative and
@@ -153,7 +151,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Amin Kiaei'
-					portrait='/team/amin kiaei.png'
+					portrait='/team/amin_kiaei.png'
 					role='Software Developer'
 				>
 					Amin is a high school student interested in cybersecurity,
@@ -162,7 +160,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Ali Isa Talebi'
-					portrait='/team/ali isa talebi.png'
+					portrait='/team/ali_isa_talebi.png'
 					role='Software Developer'
 				>
 					Isa is a high school student interested in data science,
@@ -171,7 +169,7 @@ export default function OurTeam() {
 				</TeamMember>
 				<TeamMember
 					name='Hasib Abbas'
-					portrait='/team/hasib abbas.png'
+					portrait='/team/hasib_abbas.png'
 					role='Software Developer'
 				>
 					A high schooler looking to broaden his horizon with new
