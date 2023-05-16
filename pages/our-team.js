@@ -29,7 +29,7 @@ export default function OurTeam() {
 					portrait='/team/ali_rastegar.png'
 					role='Co-founder & CEO'
 				>
-					Ali is a passionate activist, data scientist, and undergraduate student at UCLA. He is a strong believer in the power of
+					Ali is a passionate activist, data scientist, and undergraduate student at UC Berkeley. He is a strong believer in the power of
 					entrepreneurship and technology to help underserved
 					communities. He also codes (almost) every day.
 				</TeamMember>
