@@ -43,8 +43,8 @@ export default function Home(props) {
 							nonprofits to focus on their mission & maximize
 							community impact.{' '}
 						</span>
-						We manage and build websites and mobile apps for
-						nonprofits around the world, fully free of charge. If
+						We assist nonprofits with multimedia projects 
+						around the world, fully free of charge. If
 						you know an organization who&#39;d like to work with us,
 						or you&#39;re a student who&#39;d like to join the team,
 						{'  '}
