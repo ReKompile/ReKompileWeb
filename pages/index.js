@@ -37,20 +37,18 @@ export default function Home(props) {
 						</span>
 					</div>
 					<p className='text-2xl leading-normal lg:text-lg my-10 lg:w-3/4 mx-auto lg:mx-0'>
-						ReKompile is a registered non-profit led by students.{'  '}
+						ReKompile is a registered nonprofit led by students.{'  '}
 						<span className='font-bold'>
 							Our mission is to leverage technology to empower
 							nonprofits to focus on their mission & maximize
 							community impact.{' '}
 						</span>
 						We assist nonprofits with multimedia projects 
-						around the world, fully free of charge. If
-						you know an organization who&#39;d like to work with us,
-						or you&#39;re a student who&#39;d like to join the team,
-						{'  '}
-						<Link href='/contact-us' passHref>
-							<a className='underline text-orange decoration-orange transition duration-300 ease-in-out'>
-								reach out!
+						around the world, fully free of charge. We’re 
+						opening our doors to high school students 
+						nation-wide to join us, and are also looking to 
+						partner with nonprofit initiatives
+						globally. Learn more:
 							</a>
 						</Link>
 					</p>
