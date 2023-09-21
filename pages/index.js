@@ -31,9 +31,9 @@ export default function Home(props) {
 						What we do
 					</div>
 					<div className='text-3xl sm:text-4xl md:text-6xl lg:text-6xl font-belgrano leading-normal text-center lg:text-left'>
-						The non&#8209;profit, for&nbsp;
+						The nonprofit, for&nbsp;
 						<span className='orange-gradient-text'>
-							{'<'}non&#8209;profits{'>'}
+							{'<'}nonprofits{'>'}
 						</span>
 					</div>
 					<p className='text-2xl leading-normal lg:text-lg my-10 lg:w-3/4 mx-auto lg:mx-0'>
