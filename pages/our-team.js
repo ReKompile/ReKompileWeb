@@ -65,11 +65,21 @@ export default function OurTeam() {
 				<TeamMember
 					name='Amin Kiaei'
 					portrait='/team/amin_kiaei.png'
-					role='Head of Tutoring'
+					role='Director of Outreach'
 				>
 					Amin is a high school student interested in cybersecurity,
 					programming, and mathematics. He loves to take initiative
 					and help serve the community.
+				</TeamMember>		
+				<TeamMember
+					name='Mariam Tajri'
+					portrait='/team/mariam_tajri.jpeg'
+					role='Volunteer Coordinator'
+				>
+					Mariam is a high school student who has gotten involved with 
+					multimedia projects throughout the years. She has picked up 
+					skills including digital marketing and design, which helps 
+					for day to day projects.
 				</TeamMember>		
 			</TeamList>
 
@@ -80,15 +90,6 @@ export default function OurTeam() {
 
 			<TeamList>
 				{/* Volunteer team members here */}
-				<TeamMember
-					name='Abid Raza Mir'
-					portrait='/team/abid_raza_mir.png'
-					role='Technology & Strategy Advisor'
-				>
-					Abid is a university student who is a co-founder of an
-					exciting Silicon Valley startup. He also serves as a
-					mentor and advisor at ReKompile.
-				</TeamMember>
 				<TeamMember
 					name='Kumel Hasni'
 					portrait='/team/kumel_hasni.png'
@@ -120,23 +121,6 @@ export default function OurTeam() {
 					A creative 3D artist and efficient programmer, Hayaan is an
 					expert in Blender and has worked with a varied myriad of
 					apps and programming languages.
-				</TeamMember>
-				<TeamMember
-					name='Hasnain Mirza'
-					portrait='/team/hasnain_mirza.png'
-					role='Digital Marketing Specialist'
-				>
-					Hasnain is a uiversity student who is interested in
-					anything STEM related, and is studying to make it into the
-					biotechnology industry in order to improve the
-					quality of life and well-being of individuals and serve society.
-				</TeamMember>
-				<TeamMember
-					name='Ali Haidar Salak'
-					portrait='/team/ali_haidar_salak.png'
-					role='Digital Marketing Strategist'
-				>
-					Ali Salak is an undergraudate student at UC Davis who is interested in the intersection of technology and biology. He is passionate about using technology to help others and is excited to be a part of the ReKompile team.
 				</TeamMember>
 				<TeamMember
 					name='Jari Rizvi'
