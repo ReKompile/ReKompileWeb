@@ -1,7 +1,6 @@
-import GradientButton from '../components/GradientButton';
-import TeamList from '../components/OurTeam/TeamList';
-import TeamMember from '../components/OurTeam/TeamMember';
-
+import GradientButton from '../components/GradientButton'
+import TeamList from '../components/OurTeam/TeamList'
+import TeamMember from '../components/OurTeam/TeamMember'
 
 export default function OurTeam() {
 	return (
@@ -13,24 +12,9 @@ export default function OurTeam() {
 				Our team is our pride. These volunteers are the ones who make it
 				all happen.
 			</div>
-			<div className='text-orange text-5xl text-center mb-6'>...</div>		
-
-			{/* Core Team */}
-			<div className='text-4xl md:text-5xl font-belgrano leading-normal text-center lg:text-lef my-6 text-orange'>Our Team</div>
-			<div className='text-center text-xl -mb-3 text-[#222975]'>
-			</div>
+			<div className='text-orange text-5xl text-center mb-6'>...</div>
 
 			<TeamList>
-				{/* Core team members here */}
-				<TeamMember
-					name='Ali Rastegar'
-					portrait='/team/ali_rastegar.png'
-					role='Co-founder & CEO'
-				>
-					Ali is a passionate activist, data scientist, and undergraduate student at UC Berkeley. He is a strong believer in the power of
-					entrepreneurship and technology to help underserved
-					communities. He also codes (almost) every day.
-				</TeamMember>
 				<TeamMember
 					name='Zackaria Ghanbari'
 					portrait='/team/zackaria_ghanbari.jpg'
@@ -39,6 +23,15 @@ export default function OurTeam() {
 					Zack is an undergraduate student at Santa Clara University who has extensive experience in many areas of programming
 					from web development to chatbots, and is passionate about
 					creating new and innovative projects to help those in need.
+				</TeamMember>
+				<TeamMember
+					name='Ali Rastegar'
+					portrait='/team/ali_rastegar.png'
+					role='Co-founder & CEO'
+				>
+					Ali is a passionate activist, data scientist, and undergraduate student at UC Berkeley. He is a strong believer in the power of
+					entrepreneurship and technology to help underserved
+					communities. He also codes (almost) every day.
 				</TeamMember>
 				<TeamMember
 					name='Abbas Raza Mir'
@@ -52,44 +45,23 @@ export default function OurTeam() {
 					a better place.
 				</TeamMember>
 				<TeamMember
-					name='Muhammad Hadi Yusufali'
-					portrait='/team/muhammad_hadi_yusufali.png'
-					role='Executive Director'
+					name='Abid Raza Mir'
+					portrait='/team/abid_raza_mir.png'
+					role='Technology & Strategy Advisor'
 				>
-					M Hadi is a high school student who is also a multimedia
-					content creator based in the San Fransisco Bay Area. He has worked
-					on many multimedia projects, including video production and
-					editing, photography, videography, graphic and web design,
-					digital marketing, and more.
-				</TeamMember>	
+					Abid is a university student who is a co-founder of an
+					exciting Silicon Valley startup. He also serves as a
+					mentor and advisor at ReKompile.
+				</TeamMember>
 				<TeamMember
-					name='Amin Kiaei'
-					portrait='/team/amin_kiaei.png'
-					role='Director of Outreach'
+					name='Hasan Abidi'
+					portrait='/team/hasan_abidi.png'
+					role='Director of Technology Development'
 				>
-					Amin is a high school student interested in cybersecurity,
-					programming, and mathematics. He loves to take initiative
-					and help serve the community.
-				</TeamMember>		
-				<TeamMember
-					name='Mariam Tajri'
-					portrait='/team/mariam_tajri.jpeg'
-					role='Volunteer Coordinator'
-				>
-					Mariam is a high school student who has gotten involved with 
-					multimedia projects throughout the years. She has picked up 
-					skills including digital marketing and design, which helps 
-					for day to day projects.
-				</TeamMember>		
-			</TeamList>
-
-			{/* Volunteers */}
-			<div className='text-4xl md:text-5xl font-belgrano leading-normal text-center lg:text-lef my-6 text-orange'>Our Volunteers</div>
-			<div className='text-center text-xl -mb-3 text-[#222975]font-belgrano'>
-			</div>
-
-			<TeamList>
-				{/* Volunteer team members here */}
+					Hasan is a college student who is enamored by the disruptive
+					power of technology. He strives to harness its potential for
+					the betterment of society.
+				</TeamMember>
 				<TeamMember
 					name='Kumel Hasni'
 					portrait='/team/kumel_hasni.png'
@@ -123,6 +95,34 @@ export default function OurTeam() {
 					apps and programming languages.
 				</TeamMember>
 				<TeamMember
+					name='Hasnain Mirza'
+					portrait='/team/hasnain_mirza.png'
+					role='Digital Marketing Specialist'
+				>
+					Hasnain is a uiversity student who is interested in
+					anything STEM related, and is studying to make it into the
+					biotechnology industry in order to improve the
+					quality of life and well-being of individuals and serve society.
+				</TeamMember>
+				<TeamMember
+					name='Muhammad Hadi Yusufali'
+					portrait='/team/muhammad_hadi_yusufali.png'
+					role='Director of Digital Marketing'
+				>
+					M Hadi is a high school student who is also a Multimedia
+					Producer based in the San Fransisco Bay Area. He has worked
+					on many multimedia projects, including video production and
+					editing, photography, videography, graphic and web design,
+					digital marketing, and more.
+				</TeamMember>
+				<TeamMember
+					name='Ali Haidar Salak'
+					portrait='/team/ali_haidar_salak.png'
+					role='Digital Marketing Strategist'
+				>
+					Ali Salak is an undergraudate student at UC Davis who is interested in the intersection of technology and biology. He is passionate about using technology to help others and is excited to be a part of the ReKompile team.
+				</TeamMember>
+				<TeamMember
 					name='Jari Rizvi'
 					portrait='/team/jari_rizvi.png'
 					role='Digital Marketing Strategist'
@@ -150,6 +150,15 @@ export default function OurTeam() {
 					driven to tackle old problems in new ways.
 				</TeamMember>
 				<TeamMember
+					name='Amin Kiaei'
+					portrait='/team/amin_kiaei.png'
+					role='Software Developer'
+				>
+					Amin is a high school student interested in cybersecurity,
+					programming, and mathematics. He loves to take initiative
+					and help serve the community.
+				</TeamMember>
+				<TeamMember
 					name='Ali Isa Talebi'
 					portrait='/team/ali_isa_talebi.png'
 					role='Software Developer'
@@ -172,8 +181,8 @@ export default function OurTeam() {
 				<h3 className='text-3xl md:text-4xl font-belgrano leading-normal text-center lg:text-lef mb-5'>
 					Want to join?
 				</h3>
-				<GradientButton href='http://forms.gle/NSKQLSZ8B9iUtx2q8' className='mx-auto block'>
-					Sign up!
+				<GradientButton href='/contact-us' className='mx-auto block'>
+					Contact us!
 				</GradientButton>
 			</div>
 		</div>
