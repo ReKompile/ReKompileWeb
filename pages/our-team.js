@@ -34,7 +34,7 @@ export default function OurTeam() {
 					communities. He also codes (almost) every day.
 				</TeamMember>
 				<TeamMember
-					name='Abbas Raza Mir'
+					name='Ashfaq Abidi'
 					portrait='/team/abbas_raza_mir.png'
 					role='Co-founder & COO'
 				>
@@ -43,6 +43,13 @@ export default function OurTeam() {
 					world&apos;s most powerful weapon, and he strongly advocates
 					for using the technology we have today for making the world
 					a better place.
+				</TeamMember>
+				<TeamMember
+					name='Abdullah Raza Mir'
+					portrait='/team/abdullah_raza_mir.png'
+					role='Chief UI Designer'
+				>
+					Abdullah is a dedicated and driven designer with a passion for enhancing user experiences. With extensive experience in nonprofit web design, he has improved usability and accessibility, collaborating closely with developers to integrate desired features and make a positive impact on the community.
 				</TeamMember>
 				<TeamMember
 					name='Abid Raza Mir'
@@ -76,7 +83,7 @@ export default function OurTeam() {
 					portrait='/team/rasol_alofi.png'
 					role='Technical Project Manager'
 				>
-					Rasol is an eager computer science student and developer
+					Rasol is an eager computer science student at UC Davis and developer
 					looking to transform the field of medicine through software
 					solutions. He aspires to specialize in Machine Learning &
 					Artificial Intelligence and Bioinformatics to develop a
@@ -99,8 +106,8 @@ export default function OurTeam() {
 					portrait='/team/hasnain_mirza.png'
 					role='Digital Marketing Specialist'
 				>
-					Hasnain is a uiversity student who is interested in
-					anything STEM related, and is studying to make it into the
+					Hasnain is a UC Berkeley student who is interested in
+					everything STEM related, and is studying to make it into the
 					biotechnology industry in order to improve the
 					quality of life and well-being of individuals and serve society.
 				</TeamMember>
@@ -142,14 +149,6 @@ export default function OurTeam() {
 					get hands on, and enjoys problem solving and puzzles.
 				</TeamMember>
 				<TeamMember
-					name='Abdullah Raza Mir'
-					portrait='/team/abdullah_raza_mir.png'
-					role='Talent Acquisition Specialist'
-				>
-					Abdullah is a high school student who is highly creative and
-					driven to tackle old problems in new ways.
-				</TeamMember>
-				<TeamMember
 					name='Amin Kiaei'
 					portrait='/team/amin_kiaei.png'
 					role='Software Developer'
@@ -172,7 +171,7 @@ export default function OurTeam() {
 					portrait='/team/hasib_abbas.png'
 					role='Software Developer'
 				>
-					A high passionate schooler looking to broaden his horizon with new
+					A high schooler looking to broaden his horizon with new
 					experiences of working at a non-profit organization.
 				</TeamMember>
 			</TeamList>
