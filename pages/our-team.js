@@ -172,7 +172,7 @@ export default function OurTeam() {
 					portrait='/team/hasib_abbas.png'
 					role='Software Developer'
 				>
-					A high schooler looking to broaden his horizon with new
+					A high passionate schooler looking to broaden his horizon with new
 					experiences of working at a non-profit organization.
 				</TeamMember>
 			</TeamList>
