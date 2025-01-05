@@ -79,6 +79,30 @@ export default function OurTeam() {
 					non-profit sector and leads Community Connector.
 				</TeamMember>
 				<TeamMember
+  name='Mohammad Rasti'
+  portrait='/team/elyas_rasti.png'
+  role='Technical Project Manager'
+>
+  Mohammad brings extensive experience in managing technical projects and coordinating cross-functional teams. His expertise lies in delivering innovative solutions that align with strategic business goals.
+</TeamMember>
+
+<TeamMember
+  name='Yosef Samara'
+  portrait='/team/yosef_samara.png'
+  role='Technical Project Manager'
+>
+  Yosef is a skilled technical project manager with a passion for optimizing workflows and driving technology initiatives. He excels in project planning, execution, and ensuring timely delivery of results.
+</TeamMember>
+
+<TeamMember
+  name='Rami Al Dabbas'
+  portrait='/team/kumel_hasni.png'
+  role='Technical Project Manager'
+>
+  Rami specializes in leading complex technical projects, fostering collaboration, and ensuring alignment between technology solutions and organizational objectives. His detail-oriented approach enhances project efficiency.
+</TeamMember>
+
+				<TeamMember
 					name='Rasol Alofi'
 					portrait='/team/rasol_alofi.png'
 					role='Technical Project Manager'
