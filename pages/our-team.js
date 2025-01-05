@@ -96,7 +96,7 @@ export default function OurTeam() {
 
 <TeamMember
   name='Rami Al Dabbas'
-  portrait='/team/kumel_hasni.png'
+  portrait='/team/rami_al_dabbas.png'
   role='Technical Project Manager'
 >
   Rami specializes in leading complex technical projects, fostering collaboration, and ensuring alignment between technology solutions and organizational objectives. His detail-oriented approach enhances project efficiency.
